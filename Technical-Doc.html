@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Development Guide</title>
+    <link rel="stylesheet" href="Technical-Doc.css">
+</head>
+<body>
+    <nav id="navbar">
+        <header>Web Development Guide</header>
+        <a class="nav-link" href="#Introduction">Introduction</a>
+        <a class="nav-link" href="#HTML_Basics">HTML Basics</a>
+        <a class="nav-link" href="#CSS_Styling">CSS Styling</a>
+        <a class="nav-link" href="#JavaScript_Fundamentals">JavaScript Fundamentals</a>
+        <a class="nav-link" href="#Responsive_Design">Responsive Design</a>
+        <a class="nav-link" href="#Frontend_Frameworks">Frontend Frameworks</a>
+        <a class="nav-link" href="#Backend_Development">Backend Development</a>
+        <a class="nav-link" href="#Databases">Databases</a>
+        <a class="nav-link" href="#APIs">APIs</a>
+        <a class="nav-link" href="#Version_Control">Version Control</a>
+        <a class="nav-link" href="#Web_Security">Web Security</a>
+    </nav>
+    
+    <main id="main-doc">
+        <section class="main-section" id="Introduction">
+            <header>Introduction</header>
+            <p>Web development involves building and maintaining websites. It encompasses aspects such as web design, web publishing, web programming, and database management.</p>
+            <p>Modern web development requires a combination of front-end and back-end technologies, as well as frameworks and tools that improve efficiency and performance.</p>
+            <code>&lt;!DOCTYPE html&gt;</code>
+        </section>
+        
+        <section class="main-section" id="HTML_Basics">
+            <header>HTML Basics</header>
+            <p>HTML (HyperText Markup Language) is the standard language for creating web pages. It structures web content using elements such as headings, paragraphs, lists, and links.</p>
+            <p>Common HTML elements include:</p>
+            <ul>
+                <li>&lt;h1&gt; to &lt;h6&gt; for headings</li>
+                <li>&lt;p&gt; for paragraphs</li>
+                <li>&lt;a&gt; for links</li>
+                <li>&lt;img&gt; for images</li>
+                <li>&lt;table&gt; for tables</li>
+            </ul>
+            <code>&lt;h1&gt;Hello, World!&lt;/h1&gt;</code>
+        </section>
+        
+        <section class="main-section" id="CSS_Styling">
+            <header>CSS Styling</header>
+            <p>CSS (Cascading Style Sheets) is used to control the appearance of web pages, including layout, colors, fonts, and responsiveness.</p>
+            <p>Key CSS concepts include:</p>
+            <ul>
+                <li>Selectors (e.g., class, ID, element)</li>
+                <li>Box model (margin, border, padding, content)</li>
+                <li>Flexbox and Grid for layout</li>
+            </ul>
+            <code>body { background-color: lightblue; }</code>
+        </section>
+        
+        <section class="main-section" id="JavaScript_Fundamentals">
+            <header>JavaScript Fundamentals</header>
+            <p>JavaScript is a programming language that enables dynamic and interactive web pages.</p>
+            <p>Important JavaScript concepts include:</p>
+            <ul>
+                <li>Variables and Data Types</li>
+                <li>Functions and Event Listeners</li>
+                <li>DOM Manipulation</li>
+                <li>Asynchronous JavaScript (Promises, Async/Await)</li>
+            </ul>
+            <code>document.getElementById("demo").innerHTML = "Hello!";</code>
+        </section>
+        
+        <section class="main-section" id="Responsive_Design">
+            <header>Responsive Design</header>
+            <p>Responsive design ensures websites function and appear correctly on various devices and screen sizes.</p>
+            <p>Key techniques include:</p>
+            <ul>
+                <li>Media Queries</li>
+                <li>Flexible Grid Layouts</li>
+                <li>Viewport Meta Tag</li>
+            </ul>
+            <code>@media (max-width: 600px) { body { font-size: 14px; } }</code>
+        </section>
+        
+        <section class="main-section" id="Frontend_Frameworks">
+            <header>Frontend Frameworks</header>
+            <p>Popular frameworks like React, Vue, and Angular simplify UI development by providing reusable components and state management.</p>
+            <code>npm install react</code>
+        </section>
+        
+        <section class="main-section" id="Backend_Development">
+            <header>Backend Development</header>
+            <p>The backend handles server-side logic, database interactions, and API endpoints. Common technologies include Node.js, Express, Django, and Flask.</p>
+            <code>const express = require('express');</code>
+        </section>
+        
+        <section class="main-section" id="Databases">
+            <header>Databases</header>
+            <p>Databases store and manage application data. SQL databases like MySQL and PostgreSQL use structured tables, while NoSQL databases like MongoDB use flexible document-based storage.</p>
+            <code>SELECT * FROM users;</code>
+        </section>
+        
+        <section class="main-section" id="APIs">
+            <header>APIs</header>
+            <p>APIs (Application Programming Interfaces) enable communication between software applications. RESTful and GraphQL APIs are common architectures.</p>
+            <code>fetch('https://api.example.com/data')</code>
+        </section>
+        
+        <section class="main-section" id="Version_Control">
+            <header>Version Control</header>
+            <p>Git and GitHub help developers track changes, collaborate, and manage project versions efficiently.</p>
+            <code>git commit -m "Initial commit"</code>
+        </section>
+        
+        <section class="main-section" id="Web_Security">
+            <header>Web Security</header>
+            <p>Security best practices include data encryption, authentication mechanisms, and protection against common threats like SQL injection and XSS attacks.</p>
+            <code>bcrypt.hash(password, saltRounds)</code>
+        </section>
+    </main>
+</body>
+</html>
